@@ -1,0 +1,36 @@
+body{
+    font-size: larger;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    background: linear-gradient(to left, #d8bbff,#d8bbff,#f4acb7);
+    font-weight: 200;
+    font: bold;
+    padding: 40px;
+    border: 50px;
+    align-content: center;
+
+}
+form{
+    align-items: center;
+}
+
+button{
+    background-color: #fb6f92;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    font-size: 18px;
+}
+.button2{
+    background-color: #fb6f92;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    float: left;
+    font-size: 18px;
+}
+h2{
+    font-size: larger;
+    align-content: right;
+}
