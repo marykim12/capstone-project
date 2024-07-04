@@ -1,0 +1,89 @@
+* {
+        margin: 0;
+        padding: 10px;
+        box-sizing: border-box;
+ }
+ .navbar{
+    width: 1200px;
+    height: 75px;
+    margin: auto;
+}
+
+.icon{
+    width: 200px;
+    float: left;
+    height: 70px;
+}
+
+.logo{
+    color: #4d194d;
+    font-size: 35px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left: 20px;
+    float: left;
+    padding-top: 10px;
+}
+.menu{
+    width: 400px;
+    float: left;
+    height: 70px;
+}  
+ul{
+    float: left;
+    display: flex;
+    align-content: center;
+    align-items: center;
+}
+ul li{
+    list-style: none;
+    margin-left: 62px;
+    margin-top: 27px;
+    font-size: 14px;
+}
+ul li a{
+    text-decoration: none;
+    color: #4d194d;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    transition: 0.4s ease-in-out;
+
+}
+ul li a:hover{
+    color:white;
+}
+
+form{
+width: 100%;
+background:linear-gradient(to top,#9c89b8,#f0a6ca,#efc3e6,#f0e6ef,#b8bedd);
+background-position: center;
+height: 80vh;
+font-family: Arial;
+font-size: 20px;
+
+}
+input {
+    font-size: 40px; 
+    width: 50%;
+    margin-bottom: 10px; 
+    padding: 8px; 
+    }
+    
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 20px;
+}
+.btn {
+    background-color: #04AA6D;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: #45a049;
+}
+
+
